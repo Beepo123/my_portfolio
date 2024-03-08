@@ -1,0 +1,124 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: rgb(37, 37, 38); */
+}
+
+div {
+    box-sizing: border-box;
+    border-width: 0.5px;
+    border-style: solid;
+    /* border-color: white; */
+}
+
+main{
+    margin: 50px 200px 50px 200px;
+    width: calc(100% - 400px); /* Subtracting left and right margins */
+    border: 0.5px solid black; /* Setting border to solid */
+    display: flex;
+    /* background-color: rgb(30, 30, 30); */
+}
+
+
+/***************
+   PROFILE DIV
+***************/
+
+.profile{
+    font-size: 10px;
+
+    width: 500px;
+    padding: 20px;
+
+    border-color: blue;
+    display: flex;
+    column-gap: 20px;
+}
+
+.profile-picture{
+    height: 200px;
+    width: 200px;
+    min-width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-picture img{
+    width: 200px;
+    object-fit: cover;
+}
+
+/***************
+   CONTENT DIV
+***************/
+
+.content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    flex: 1;
+    
+    padding: 20px;
+    border-color: green;
+}
+
+.header{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 5px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header button{
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 5px;
+    transition: 0.5s
+}
+
+.header button:hover{
+    background-color: lightblue;
+}
+
+.header button:active{
+    background-color: blue;
+}
+
+/***************
+   body DIV
+***************/
+
+.body{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+    border: none;
+}
+
+.project-container{
+    height: 200px;
+    padding: 10px;
+}
+
+.project-thumbnail{
+    height: 70%;
+}
+
+.project-thumbnail img{
+    height: 100%;
+    width: 100%;
+}
+
+.project-title{
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
