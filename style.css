@@ -6,12 +6,21 @@ body{
 }
 
 main{
-    margin: 50px 200px 50px 200px;
+    margin: 50px 200px;
     width: calc(100% - 400px); /* Subtracting left and right margins */
     display: flex;
     background-color: rgb(27, 27, 27);
 }
 
+    /* 
+    media queries for reponsive design
+    */
+@media (max-width: 1000px){
+    main{
+        margin: 0;
+        width: 1000px;
+    }
+}   
 
 /***************
    PROFILE DIV
