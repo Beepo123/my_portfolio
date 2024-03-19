@@ -1,4 +1,4 @@
-const apiKey = "";
+const apiKey = "1541cc2af99034a5ca3ebb18633d5b98";
 
 // display weather info on button click
 const buttonElement = document.querySelector(".search-button");
