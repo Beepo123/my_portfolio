@@ -1,7 +1,7 @@
 import { renderContact, renderProjects, renderResume } from "./contents.js";
 
 document.addEventListener('DOMContentLoaded', ()=>{
-  renderContact();
+  renderProjects();
 })
 
 document.querySelector(".header").addEventListener("click", (event) => {
