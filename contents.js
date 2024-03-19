@@ -33,7 +33,7 @@ export function renderProjects() {
 
 export function renderResume() {
   const bodyElement = document.querySelector(".body");
-  bodyElement.innerHTML = `<img src="images/cv.jpg">`;
+  bodyElement.innerHTML = `<img src="images/CV.jpg">`;
   bodyElement.classList.add("centered-resume");
 }
 
