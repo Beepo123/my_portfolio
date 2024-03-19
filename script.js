@@ -1,7 +1,7 @@
-import { renderProjects, renderResume } from "./contents.js";
+import { renderContact, renderProjects, renderResume } from "./contents.js";
 
 document.addEventListener('DOMContentLoaded', ()=>{
-  renderProjects();
+  renderContact();
 })
 
 document.querySelector(".header").addEventListener("click", (event) => {
@@ -16,7 +16,7 @@ document.querySelector(".header").addEventListener("click", (event) => {
   }
   
   if(event.target.closest(".contact-button")){
-    console.log('contact')
+    renderContact()
     return;
   }
 });
